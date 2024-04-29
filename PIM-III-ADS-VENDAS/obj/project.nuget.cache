@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "m6x2TFG+g+6Hc/vGwvrbkLGnMlxeFFBXxR3WTJ/JS09XIfJWg7UFctp166JtP+knjmsQ9e2kWVmBybPygCEaNw==",
+  "success": true,
+  "projectFilePath": "D:\\Paulo & Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Paulo & Rebeca\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
+    "C:\\Users\\Paulo & Rebeca\\.nuget\\packages\\microsoft.aspnet.webapi.client\\6.0.0\\microsoft.aspnet.webapi.client.6.0.0.nupkg.sha512",
+    "C:\\Users\\Paulo & Rebeca\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Paulo & Rebeca\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Paulo & Rebeca\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Paulo & Rebeca\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "C:\\Users\\Paulo & Rebeca\\.nuget\\packages\\npgsql\\8.0.2\\npgsql.8.0.2.nupkg.sha512",
+    "C:\\Users\\Paulo & Rebeca\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\Paulo & Rebeca\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\Paulo & Rebeca\\.nuget\\packages\\viacep\\4.1.480\\viacep.4.1.480.nupkg.sha512"
+  ],
+  "logs": []
+}

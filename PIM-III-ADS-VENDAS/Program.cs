@@ -1,0 +1,19 @@
+using PIM_III_ADS_2P17_AVALIACAO.Visualizar;
+
+namespace PIM_III_ADS_VENDAS
+{
+    internal static class Program
+    {
+        /// <summary>
+        ///  The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            // To customize application configuration such as set high DPI settings or default font,
+            // see https://aka.ms/applicationconfiguration.
+            ApplicationConfiguration.Initialize();
+            Application.Run(new LoginCompra());
+        }
+    }
+}
