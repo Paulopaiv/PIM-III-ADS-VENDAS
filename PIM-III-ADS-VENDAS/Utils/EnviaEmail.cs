@@ -6,7 +6,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PIM_III_ADS_2P17.Utils
+namespace PIM_III_ADS_VENDAS.Utils
 {
     public class EnviaEmail
     {
@@ -19,11 +19,14 @@ namespace PIM_III_ADS_2P17.Utils
                 smtp.EnableSsl = true;
                 smtp.Timeout = 60 * 1000;
                 smtp.UseDefaultCredentials = false;
-                smtp.Credentials = new NetworkCredential("pim3ads@gmail.com", "q n a m n b c j e r x fa h r r"); 
+                smtp.Credentials = new NetworkCredential("pim3ads@gmail.com", "q n a m n b c j e r x fa h r r");
+                
                 message.From = new MailAddress("pim3ads@gmail.com");
+
                 message.Body = $"Olá,\n\nObrigado por comprar seu ingresso para o museu!" +
                                 $"\n\nSeu código de visitante é: {codigo}" +
                                 $"\n\nTenha uma ótima visita!";
+
                 message.Subject = "Seu Código de Visitante";
                 message.IsBodyHtml = true;
                 message.Priority = MailPriority.Normal;

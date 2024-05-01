@@ -1,7 +1,6 @@
 ﻿using Newtonsoft.Json.Linq;
-using PIM_III_ADS_2P17.Servico;
-using PIM_III_ADS_2P17.Utils;
-using PIM_III_ADS_2P17_AVALIACAO.Controle;
+using PIM_III_ADS_VENDAS.Controller;
+using PIM_III_ADS_VENDAS.Service;
 using System.Net;
 using System.Text.RegularExpressions;
 
@@ -10,20 +9,20 @@ namespace PIM_III_ADS_VENDAS.Utils
 {
     public class Validacao
     {
-        private readonly PessoaServico pessoaServico;
+        private readonly PessoaService pessoaServico;
         private string mensagem;
 
         public Validacao()
         {
-            pessoaServico = new PessoaServico(new Dbconexao(), new EnviaEmail());
+            pessoaServico = new PessoaService(new Dbconexao(), new EnviaEmail());
         }
 
-        public Validacao(PessoaControle pessoa)
+        public Validacao(PessoaController pessoa)
         {
             ValidarPessoa(pessoa);
         }
 
-        internal void ValidarPessoa(PessoaControle pessoa)
+        internal void ValidarPessoa(PessoaController pessoa)
         {
             mensagem = "";
             ValidarCep(pessoa);
@@ -32,7 +31,7 @@ namespace PIM_III_ADS_VENDAS.Utils
             ValidarNome(pessoa);
         }
 
-        private void ValidarNome(PessoaControle pessoa)
+        private void ValidarNome(PessoaController pessoa)
         {
             if (string.IsNullOrWhiteSpace(pessoa.Nome))
             {
@@ -53,7 +52,7 @@ namespace PIM_III_ADS_VENDAS.Utils
             pessoa.Nome = pessoa.Nome;
         }
 
-        private void ValidarIdade(PessoaControle pessoa)
+        private void ValidarIdade(PessoaController pessoa)
         {
             if (string.IsNullOrWhiteSpace(pessoa.Idade))
             {
@@ -81,7 +80,7 @@ namespace PIM_III_ADS_VENDAS.Utils
             pessoa.IdadeDb = idade;
         }
 
-        public void ValidarEmail(PessoaControle pessoa)
+        public void ValidarEmail(PessoaController pessoa)
         {
             if (string.IsNullOrWhiteSpace(pessoa.Email))
             {
@@ -108,7 +107,7 @@ namespace PIM_III_ADS_VENDAS.Utils
             }
         }
 
-        private void ValidarCep(PessoaControle pessoa)
+        private void ValidarCep(PessoaController pessoa)
         {
             if (string.IsNullOrWhiteSpace(pessoa.Cep) || !Regex.IsMatch(pessoa.Cep, @"^\d{8}$"))
             {

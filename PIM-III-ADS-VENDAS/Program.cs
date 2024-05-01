@@ -1,4 +1,4 @@
-using PIM_III_ADS_2P17_AVALIACAO.Visualizar;
+using PIM_III_ADS_VENDAS.View;
 
 namespace PIM_III_ADS_VENDAS
 {
