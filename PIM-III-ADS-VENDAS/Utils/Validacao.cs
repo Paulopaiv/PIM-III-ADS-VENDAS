@@ -95,16 +95,15 @@ namespace PIM_III_ADS_VENDAS.Utils
                 return;
             }
 
-            // Verificar se o email já está em uso apenas ao salvar uma nova pessoa
-            if (pessoa.Codigo == null)
+
+
+            var pessoaExistente = pessoaServico.BuscarPessoaPorEmail(pessoa.Email);
+            if (pessoaExistente != null)
             {
-                var pessoaExistente = pessoaServico.BuscarPessoaPorEmail(pessoa.Email);
-                if (pessoaExistente != null)
-                {
-                    setMensagem("Este endereço de e-mail já está em uso. Por favor, escolha outro.");
-                    return;
-                }
+                setMensagem("Este endereço de e-mail já está em uso. Por favor, escolha outro.");
             }
+            return;
+
         }
 
         private void ValidarCep(PessoaController pessoa)

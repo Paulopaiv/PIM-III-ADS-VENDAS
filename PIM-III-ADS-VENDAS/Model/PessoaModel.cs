@@ -23,7 +23,6 @@ namespace PIM_III_ADS_VENDAS.Model
         {
             this.SalvaPessoa(pessoa);
 
-            this.DeletarPessoa(pessoa);
      
             this.LoginCompra(pessoa);
           
@@ -46,34 +45,8 @@ namespace PIM_III_ADS_VENDAS.Model
 
       
 
-        internal void DeletarPessoa(PessoaController pessoa)
-        {
-            if (pessoa.Codigo.Equals(""))
-            {
-                this.mensagem = "Erro ao Remover pessoa: pessoa não encontrada";
-            }
-            else
-            {
-                pessoaServico.Deletar(pessoa);
-                this.mensagem = "Pessoa excluída com sucesso!";
-            }
-        }
 
     
-
-        //internal void Login(PessoaControle pessoa)
-        //{
-        //   var codigo = pessoaServico.BuscarPorCodigo(pessoa);
-
-        //    if (codigo.Codigo != null)
-        //    {
-        //        this.mensagem = "O token fornecido é inválido. Por favor, verifique e tente novamente.";
-        //    }
-        //    else
-        //    {
-        //        this.mensagem = $"Olá, {pessoa.Nome}! Por favor, responda o questionário a seguir.";
-        //    }
-        //}
 
       
 

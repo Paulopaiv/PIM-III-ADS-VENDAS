@@ -4,6 +4,12 @@
     <Compile Update="View\CadastroVisitante.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="View\Config\Teclado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Config\TecladoNumerico.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="View\LoginCompra.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -148,6 +148,7 @@
             txbEmail.Name = "txbEmail";
             txbEmail.Size = new Size(382, 23);
             txbEmail.TabIndex = 1;
+            txbEmail.Click += TextBox1_Click;
             // 
             // txbNome
             // 
@@ -156,6 +157,7 @@
             txbNome.Name = "txbNome";
             txbNome.Size = new Size(382, 23);
             txbNome.TabIndex = 0;
+            txbNome.Click += TextBox1_Click;
             // 
             // lblNome
             // 

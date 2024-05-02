@@ -34,10 +34,6 @@ namespace PIM_III_ADS_VENDAS.Controller
             {
                 return "Meia";
             }
-            //else if (Isento)
-            //{
-            //    return "Isento";
-            //}
             else
             {
                 return "Isento";

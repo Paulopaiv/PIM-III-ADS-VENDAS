@@ -53,6 +53,20 @@
             return codigo;
         }
 
+        public bool VerificarIdadeIsento()
+        {
+            if (IdadeDb > 70)
+            {
+                
+                return true;
+            }
+            else
+            {
+                
+                return false;
+            }
+        }
+
         public string Idade
         {
             get { return idade; }

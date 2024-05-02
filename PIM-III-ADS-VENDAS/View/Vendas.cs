@@ -52,13 +52,24 @@ namespace PIM_III_ADS_VENDAS.View
 
         private void btnIsento_Click(object sender, EventArgs e)
         {
-            vendasController.Inteiro = false;
-            vendasController.Meia = false;
-            vendasController.Isento = true;
+            // Verifica se a idade é maior que 70
+            if (pessoaController.IdadeDb > 70)
+            {
+                // Se a idade for maior que 70, define o tipo de ingresso como isento
+                vendasController.Inteiro = false;
+                vendasController.Meia = false;
+                vendasController.Isento = true;
+                vendasModel.SalvarVenda();
+            }
+            else
+            {
+                // Se a idade não for maior que 70, mostra uma mensagem de erro
+                MessageBox.Show("A opção 'Isento' está disponível apenas para pessoas com mais de 70 anos.");
+            }
 
-            vendasModel.SalvarVenda();
             this.Close();
         }
-
     }
+
+    
 }

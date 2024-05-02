@@ -34,15 +34,7 @@ namespace PIM_III_ADS_VENDAS.Service
 
                     });
 
-                enviaEmail.EnviarEmail(pessoa.Email, pessoa.Codigo);
-            }
-        }
-
-        public void Deletar(PessoaController pessoa)
-        {
-            using (NpgsqlConnection conexao = dbconexao.GetConnection() as NpgsqlConnection)
-            {
-                conexao.Execute("DELETE FROM visitante WHERE Codigo  = @Codigo", new { pessoa.Codigo });
+               // enviaEmail.EnviarEmail(pessoa.Email, pessoa.Codigo);
             }
         }
 
@@ -79,25 +71,5 @@ namespace PIM_III_ADS_VENDAS.Service
             }
         }
 
-        public PessoaController BuscarPorCodigo(PessoaController pessoa)
-        {
-            using (var conexao = new Dbconexao())
-            {
-                var connection = conexao.GetConnection();
-
-                var resultado = connection.QueryFirstOrDefault(
-                   "SELECT * FROM visitante WHERE Codigo = @codigo ",
-                    new { Codigo = pessoa.Codigo });
-
-                if (resultado == null)
-                {
-                    return null;
-                }
-                pessoa.Codigo = resultado.codigo;
-                pessoa.Nome = resultado.nome;
-                return pessoa;
-            }
-        }
-
-    }
+      }
 }

@@ -91,6 +91,7 @@
             txbNome.Name = "txbNome";
             txbNome.Size = new Size(382, 23);
             txbNome.TabIndex = 0;
+            txbNome.Click += TextBox1_Click;
             // 
             // lblIdade
             // 
@@ -112,6 +113,7 @@
             txbEmail.Name = "txbEmail";
             txbEmail.Size = new Size(382, 23);
             txbEmail.TabIndex = 1;
+            txbEmail.Click += TextBox1_Click;
             // 
             // lblEnail
             // 
@@ -133,6 +135,7 @@
             txbIdade.Name = "txbIdade";
             txbIdade.Size = new Size(100, 23);
             txbIdade.TabIndex = 2;
+            txbIdade.Click += TextBox1_Click;
             // 
             // lblCep
             // 
@@ -167,6 +170,7 @@
             txbCep.Name = "txbCep";
             txbCep.Size = new Size(100, 23);
             txbCep.TabIndex = 3;
+            txbCep.Click += TextBox1_Click;
             // 
             // gpbCadastro
             // 

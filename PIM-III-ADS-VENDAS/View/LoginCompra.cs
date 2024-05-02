@@ -9,7 +9,7 @@ namespace PIM_III_ADS_VENDAS.View
     {
         private PessoaModel pessoaModel;
         private PessoaController pessoaController;
-
+        private Teclado teclado;
 
         public LoginCompra()
         {
@@ -19,6 +19,20 @@ namespace PIM_III_ADS_VENDAS.View
             this.WindowState = FormWindowState.Maximized;
         }
 
+        private void TextBox1_Click(object sender, EventArgs e)
+        {
+            // Verifica se o teclado ainda não foi instanciado
+            if (teclado == null)
+            {
+                // Cria uma nova instância do teclado
+                teclado = new Teclado();
+            }
+
+            // Define a TextBox clicada como o TextBox de destino do teclado
+            teclado.SetTargetTextBox(sender as TextBox);
+
+            teclado.Show();
+        }
 
         private void btnComprar_Click(object sender, EventArgs e)
         {
