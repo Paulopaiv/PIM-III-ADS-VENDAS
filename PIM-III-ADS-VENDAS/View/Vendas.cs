@@ -1,6 +1,6 @@
 ﻿
 using PIM_III_ADS_VENDAS.Controller;
-using PIM_III_ADS_VENDAS.Modelo;
+using PIM_III_ADS_VENDAS.Model;
 
 
 namespace PIM_III_ADS_VENDAS.View
@@ -32,22 +32,12 @@ namespace PIM_III_ADS_VENDAS.View
 
         private void btnInteiro_Click(object sender, EventArgs e)
         {
-            vendasController.Inteiro = true;
-            vendasController.Meia = false;
-            vendasController.Isento = false;
-                          
-            pagamento.ShowDialog(); 
-            this.Close();
+            AtualizarTipoIngresso(true, false, false);
         }
 
         private void btnMeia_Click(object sender, EventArgs e)
         {
-            vendasController.Inteiro = false;
-            vendasController.Meia = true;
-            vendasController.Isento = false;
-
-            pagamento.ShowDialog(); 
-            this.Close();
+            AtualizarTipoIngresso(false, true, false);
         }
 
         private void btnIsento_Click(object sender, EventArgs e)
@@ -56,9 +46,7 @@ namespace PIM_III_ADS_VENDAS.View
             if (pessoaController.IdadeDb > 70)
             {
                 // Se a idade for maior que 70, define o tipo de ingresso como isento
-                vendasController.Inteiro = false;
-                vendasController.Meia = false;
-                vendasController.Isento = true;
+                AtualizarTipoIngresso(false, false, true);
                 vendasModel.SalvarVenda();
             }
             else
@@ -66,10 +54,16 @@ namespace PIM_III_ADS_VENDAS.View
                 // Se a idade não for maior que 70, mostra uma mensagem de erro
                 MessageBox.Show("A opção 'Isento' está disponível apenas para pessoas com mais de 70 anos.");
             }
+            this.Close();
+        }
 
+        private void AtualizarTipoIngresso(bool inteiro, bool meia, bool isento)
+        {
+            vendasController.Inteiro = inteiro;
+            vendasController.Meia = meia;
+            vendasController.Isento = isento;
+            pagamento.ShowDialog();
             this.Close();
         }
     }
-
-    
 }

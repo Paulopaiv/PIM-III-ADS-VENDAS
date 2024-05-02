@@ -24,6 +24,7 @@ namespace PIM_III_ADS_VENDAS.Controller
 
         }
 
+
         public string TipoDeIngresso()
         {
             if (Inteiro)
@@ -40,40 +41,60 @@ namespace PIM_III_ADS_VENDAS.Controller
             }
         }
 
+        public string Valor()
+        {
+            if (Inteiro)
+            {
+                return "10.00";
+            }
+            else if (Meia)
+            {
+                return "5.00";
+            }
+            else if (Isento)
+            {
+                return "0.00";
+            }
+
+            return "0.00";
+        }
+
+
+
         public bool Isento
+    {
+        get
         {
-            get
-            {
-                return isento;
-            }
-            set
-            {
-                isento = value;
-            }
+            return isento;
         }
-
-        public bool Meia
+        set
         {
-            get
-            {
-                return meia;
-            }
-            set
-            {
-                meia = value;
-            }
-        }
-
-        public bool Inteiro
-        {
-            get
-            {
-                return inteiro;
-            }
-            set
-            {
-                inteiro = value;
-            }
+            isento = value;
         }
     }
+
+    public bool Meia
+    {
+        get
+        {
+            return meia;
+        }
+        set
+        {
+            meia = value;
+        }
+    }
+
+    public bool Inteiro
+    {
+        get
+        {
+            return inteiro;
+        }
+        set
+        {
+            inteiro = value;
+        }
+    }
+}
 }

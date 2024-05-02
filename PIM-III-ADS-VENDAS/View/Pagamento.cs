@@ -1,13 +1,6 @@
 ﻿using PIM_III_ADS_VENDAS.Controller;
 using PIM_III_ADS_VENDAS.Model;
-using PIM_III_ADS_VENDAS.Modelo;
-using QRCoder;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Policy;
-using System.Text;
-using System.Threading.Tasks;
+
 namespace PIM_III_ADS_VENDAS.View
 {
     internal partial class Pagamento : Form

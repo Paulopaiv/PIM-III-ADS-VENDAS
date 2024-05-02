@@ -2,6 +2,7 @@
 using Dapper;
 using PIM_III_ADS_VENDAS.Utils;
 using PIM_III_ADS_VENDAS.Controller;
+using PIM_III_ADS_VENDAS.Service;
 
 namespace PIM_III_ADS_VENDAS.Service
 {
@@ -34,7 +35,7 @@ namespace PIM_III_ADS_VENDAS.Service
 
                     });
 
-               // enviaEmail.EnviarEmail(pessoa.Email, pessoa.Codigo);
+                // enviaEmail.EnviarEmail(pessoa.Email, pessoa.Codigo);
             }
         }
 
@@ -71,5 +72,5 @@ namespace PIM_III_ADS_VENDAS.Service
             }
         }
 
-      }
+    }
 }

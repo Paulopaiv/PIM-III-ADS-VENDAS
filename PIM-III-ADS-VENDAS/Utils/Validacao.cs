@@ -3,7 +3,7 @@ using PIM_III_ADS_VENDAS.Controller;
 using PIM_III_ADS_VENDAS.Service;
 using System.Net;
 using System.Text.RegularExpressions;
-
+using PIM_III_ADS_VENDAS.Service;
 
 namespace PIM_III_ADS_VENDAS.Utils
 {

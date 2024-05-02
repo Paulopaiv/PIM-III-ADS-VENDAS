@@ -1,7 +1,7 @@
 ﻿
 using PIM_III_ADS_VENDAS.Utils;
 using PIM_III_ADS_VENDAS.Controller;
-using PIM_III_ADS_VENDAS.Utils;
+using PIM_III_ADS_VENDAS.Service;
 
 using PIM_III_ADS_VENDAS.Service;
 
@@ -43,13 +43,6 @@ namespace PIM_III_ADS_VENDAS.Model
             }
         }
 
-      
-
-
-    
-
-      
-
         internal void LoginCompra(PessoaController pessoa)
         {
             pessoa = pessoaServico.BuscarPessoaPorNomeEEmail(pessoa);
@@ -64,7 +57,6 @@ namespace PIM_III_ADS_VENDAS.Model
             }
         }
 
-      
         public string Mensagem
         {
             get { return mensagem; }

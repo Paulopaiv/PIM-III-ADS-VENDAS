@@ -9,11 +9,11 @@
         private string cep;
         private string codigo;
         public DateTime data;
-      
+
 
         public PessoaController()
         {
-           
+
         }
 
         public PessoaController(string nome, string idade, string email, string cep, string codigo, int idadeDb = 0)
@@ -22,13 +22,14 @@
             this.idade = idade;
             this.email = email;
             this.cep = cep;
-            this.codigo = GerarCodigo(nome); 
+            this.codigo = GerarCodigo(nome);
             this.idadeDb = idadeDb;
         }
 
-        public PessoaController(string codigo)
+        public PessoaController(string codigo, string email)
         {
             this.codigo = codigo;
+            this.email = email;
         }
 
         private string GerarCodigo(string nome)
@@ -53,19 +54,6 @@
             return codigo;
         }
 
-        public bool VerificarIdadeIsento()
-        {
-            if (IdadeDb > 70)
-            {
-                
-                return true;
-            }
-            else
-            {
-                
-                return false;
-            }
-        }
 
         public string Idade
         {
@@ -75,10 +63,14 @@
 
         public string Codigo
         {
-            get{
-                return codigo;}
-            set{ 
-                codigo = value;}
+            get
+            {
+                return codigo;
+            }
+            set
+            {
+                codigo = value;
+            }
         }
 
         public string Cep
@@ -89,8 +81,14 @@
 
         public string Email
         {
-            get { return email; }
-            set { email = value; }
+            get
+            {
+                return email;
+            }
+            set
+            {
+                email = value;
+            }
         }
 
         public int IdadeDb
@@ -110,6 +108,6 @@
             get { return data; }
             set { data = value; }
         }
-        
+
     }
 }

@@ -1,6 +1,8 @@
 ﻿using Npgsql;
 using PIM_III_ADS_VENDAS.Controller;
+using PIM_III_ADS_VENDAS.Service;
 using PIM_III_ADS_VENDAS.Utils;
+using static QRCoder.PayloadGenerator;
 
 namespace PIM_III_ADS_VENDAS.Service
 {
@@ -8,43 +10,37 @@ namespace PIM_III_ADS_VENDAS.Service
     {
         private Dbconexao dbconexao = new Dbconexao();
         private NpgsqlConnection conexao;
-        private EnviaEmail enviaEmail;
-        private PessoaController pessoa;
 
-        public VendasService()
+        internal VendasService()
         {
-
+            conexao = dbconexao.GetConnection() as NpgsqlConnection;
         }
 
-        public VendasService(Dbconexao conexao, EnviaEmail enviaEmail)
+        internal void RegistrarVenda(string pagamentoAtual, string codigoUsuario, string vendaAtual,string e_mail, string nome, string valorIngresso)
         {
-            this.conexao = dbconexao.GetConnection() as NpgsqlConnection; // Corrigindo aqui
-            this.enviaEmail = enviaEmail;
-        }
+            
+            EnviaEmail enviaEmail = new EnviaEmail();   
 
-        internal void RegistrarVenda(string pagamentoAtual, string codigoUsuario, string vendaAtual)
-        {
-            using (NpgsqlConnection conexao = dbconexao.GetConnection() as NpgsqlConnection)
+            using (NpgsqlCommand command = new NpgsqlCommand(@"INSERT INTO public.vendas(formadepagamento, ingresso, data, codigo)
+                                                         VALUES (@formadepagamento, @ingresso, @Data,@CodigoPessoa)", conexao))
             {
-                //conexao.Open(); // Abra a conexão antes de usar
+                command.Parameters.AddWithValue("@CodigoPessoa", codigoUsuario);
+                command.Parameters.AddWithValue("@ingresso", vendaAtual);
+                command.Parameters.AddWithValue("@formadepagamento", pagamentoAtual);
+                command.Parameters.AddWithValue("@Data", DateTime.Now);
 
-                using (NpgsqlCommand command = new NpgsqlCommand(@"INSERT INTO public.vendas(formadepagamento, ingresso, data, codigo) VALUES (@formadepagamento, @ingresso, @Data, @CodigoPessoa)", conexao))
+                int linhasAfetadas = command.ExecuteNonQuery();
+
+                if (linhasAfetadas < 0)
                 {
-                    command.Parameters.AddWithValue("@CodigoPessoa", codigoUsuario);
-                    command.Parameters.AddWithValue("@ingresso", vendaAtual);
-                    command.Parameters.AddWithValue("@formadepagamento", pagamentoAtual);
-                    command.Parameters.AddWithValue("@Data", DateTime.Now);
-
-                    int linhasAfetadas = command.ExecuteNonQuery();
-
-                    if (linhasAfetadas < 0)
-                    {
-                        MessageBox.Show("Falha ao registrar o voto.");
-                    }
-
-                    enviaEmail.EnviarEmail(pessoa.Email, pessoa.Codigo);
+                    MessageBox.Show("Falha ao registrar o voto.");
                 }
+
+                enviaEmail.EnviarEmail(nome,e_mail,codigoUsuario, pagamentoAtual, valorIngresso);
             }
+
+
         }
+
     }
 }
