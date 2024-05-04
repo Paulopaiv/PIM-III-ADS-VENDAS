@@ -1,36 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{955A6085-C266-448C-B30B-E4CB81509674}|PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS.csproj|d:\\paulo \u0026 rebeca\\git-hub-paulo\\pim-iii-ads-vendas\\pim-iii-ads-vendas\\pim-iii-ads-vendas\\service\\vendasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{955A6085-C266-448C-B30B-E4CB81509674}|PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS.csproj|solutionrelative:pim-iii-ads-vendas\\service\\vendasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{955A6085-C266-448C-B30B-E4CB81509674}|PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS.csproj|d:\\paulo \u0026 rebeca\\git-hub-paulo\\pim-iii-ads-vendas\\pim-iii-ads-vendas\\pim-iii-ads-vendas\\model\\vendasmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{955A6085-C266-448C-B30B-E4CB81509674}|PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS.csproj|solutionrelative:pim-iii-ads-vendas\\model\\vendasmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{955A6085-C266-448C-B30B-E4CB81509674}|PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS.csproj|d:\\paulo \u0026 rebeca\\git-hub-paulo\\pim-iii-ads-vendas\\pim-iii-ads-vendas\\pim-iii-ads-vendas\\controller\\pessoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{955A6085-C266-448C-B30B-E4CB81509674}|PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS.csproj|solutionrelative:pim-iii-ads-vendas\\controller\\pessoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{955A6085-C266-448C-B30B-E4CB81509674}|PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS.csproj|d:\\paulo \u0026 rebeca\\git-hub-paulo\\pim-iii-ads-vendas\\pim-iii-ads-vendas\\pim-iii-ads-vendas\\controller\\vendascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{955A6085-C266-448C-B30B-E4CB81509674}|PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS.csproj|solutionrelative:pim-iii-ads-vendas\\controller\\vendascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{955A6085-C266-448C-B30B-E4CB81509674}|PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS.csproj|d:\\paulo \u0026 rebeca\\git-hub-paulo\\pim-iii-ads-vendas\\pim-iii-ads-vendas\\pim-iii-ads-vendas\\utils\\enviaemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{955A6085-C266-448C-B30B-E4CB81509674}|PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS.csproj|solutionrelative:pim-iii-ads-vendas\\utils\\enviaemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{955A6085-C266-448C-B30B-E4CB81509674}|PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS.csproj|d:\\paulo \u0026 rebeca\\git-hub-paulo\\pim-iii-ads-vendas\\pim-iii-ads-vendas\\pim-iii-ads-vendas\\view\\pagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{955A6085-C266-448C-B30B-E4CB81509674}|PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS.csproj|solutionrelative:pim-iii-ads-vendas\\view\\pagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{955A6085-C266-448C-B30B-E4CB81509674}|PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS.csproj|d:\\paulo \u0026 rebeca\\git-hub-paulo\\pim-iii-ads-vendas\\pim-iii-ads-vendas\\pim-iii-ads-vendas\\service\\dbconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{955A6085-C266-448C-B30B-E4CB81509674}|PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS.csproj|solutionrelative:pim-iii-ads-vendas\\service\\dbconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\vendasEmail\\PIM-III-ADS-VENDAS\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -38,11 +9,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Bookmark",
@@ -54,102 +29,11 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "VendasController.cs",
-              "DocumentMoniker": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\Controller\\VendasController.cs",
-              "RelativeDocumentMoniker": "PIM-III-ADS-VENDAS\\Controller\\VendasController.cs",
-              "ToolTip": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\Controller\\VendasController.cs",
-              "RelativeToolTip": "PIM-III-ADS-VENDAS\\Controller\\VendasController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAowDkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T18:01:51.134Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PessoaController.cs",
-              "DocumentMoniker": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\Controller\\PessoaController.cs",
-              "RelativeDocumentMoniker": "PIM-III-ADS-VENDAS\\Controller\\PessoaController.cs",
-              "ToolTip": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\Controller\\PessoaController.cs",
-              "RelativeToolTip": "PIM-III-ADS-VENDAS\\Controller\\PessoaController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAIAwwCUAAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T18:05:14.642Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Pagamento.cs",
-              "DocumentMoniker": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\View\\Pagamento.cs",
-              "RelativeDocumentMoniker": "PIM-III-ADS-VENDAS\\View\\Pagamento.cs",
-              "ToolTip": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\View\\Pagamento.cs",
-              "RelativeToolTip": "PIM-III-ADS-VENDAS\\View\\Pagamento.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAzwDEAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T18:03:41.629Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Dbconexao.cs",
-              "DocumentMoniker": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\Service\\Dbconexao.cs",
-              "RelativeDocumentMoniker": "PIM-III-ADS-VENDAS\\Service\\Dbconexao.cs",
-              "ToolTip": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\Service\\Dbconexao.cs",
-              "RelativeToolTip": "PIM-III-ADS-VENDAS\\Service\\Dbconexao.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T17:55:29.666Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EnviaEmail.cs",
-              "DocumentMoniker": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\Utils\\EnviaEmail.cs",
-              "RelativeDocumentMoniker": "PIM-III-ADS-VENDAS\\Utils\\EnviaEmail.cs",
-              "ToolTip": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\Utils\\EnviaEmail.cs",
-              "RelativeToolTip": "PIM-III-ADS-VENDAS\\Utils\\EnviaEmail.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBMAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T17:42:03.525Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "VendasModel.cs",
-              "DocumentMoniker": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\Model\\VendasModel.cs",
-              "RelativeDocumentMoniker": "PIM-III-ADS-VENDAS\\Model\\VendasModel.cs",
-              "ToolTip": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\Model\\VendasModel.cs",
-              "RelativeToolTip": "PIM-III-ADS-VENDAS\\Model\\VendasModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T17:38:00.523Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VendasService.cs",
-              "DocumentMoniker": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\Service\\VendasService.cs",
-              "RelativeDocumentMoniker": "PIM-III-ADS-VENDAS\\Service\\VendasService.cs",
-              "ToolTip": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\Service\\VendasService.cs",
-              "RelativeToolTip": "PIM-III-ADS-VENDAS\\Service\\VendasService.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAqwCAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T17:37:15.277Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             }
           ]
         }

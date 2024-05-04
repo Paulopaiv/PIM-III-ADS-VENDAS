@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Paulo & Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS.csproj": {}
+    "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\vendasEmail\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS.csproj": {}
   },
   "projects": {
-    "D:\\Paulo & Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS.csproj": {
+    "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\vendasEmail\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Paulo & Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS.csproj",
+        "projectUniqueName": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\vendasEmail\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS.csproj",
         "projectName": "PIM-III-ADS-VENDAS",
-        "projectPath": "D:\\Paulo & Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS.csproj",
-        "packagesPath": "C:\\Users\\Paulo & Rebeca\\.nuget\\packages\\",
-        "outputPath": "D:\\Paulo & Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\obj\\",
+        "projectPath": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\vendasEmail\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS.csproj",
+        "packagesPath": "C:\\Users\\kenzo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\vendasEmail\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Paulo & Rebeca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kenzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0-windows"
+          "net6.0-windows7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0-windows7.0": {
-            "targetAlias": "net7.0-windows",
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows7.0",
             "projectReferences": {}
           }
         },
@@ -42,8 +42,8 @@
         }
       },
       "frameworks": {
-        "net7.0-windows7.0": {
-          "targetAlias": "net7.0-windows",
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows7.0",
           "dependencies": {
             "Dapper": {
               "target": "Package",
@@ -77,6 +77,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
