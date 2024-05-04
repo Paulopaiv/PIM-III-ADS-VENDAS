@@ -1,0 +1,14 @@
+C:\Users\kenzo\OneDrive\Documentos\PIM\vendasEmail\PIM-III-ADS-VENDAS\PIM-III-ADS-VENDAS\obj\Debug\net8.0-windows7.0\PIM-III-ADS-VENDAS.csproj.AssemblyReference.cache
+C:\Users\kenzo\OneDrive\Documentos\PIM\vendasEmail\PIM-III-ADS-VENDAS\PIM-III-ADS-VENDAS\obj\Debug\net8.0-windows7.0\PIM_III_ADS_VENDAS.Properties.Resources.resources
+C:\Users\kenzo\OneDrive\Documentos\PIM\vendasEmail\PIM-III-ADS-VENDAS\PIM-III-ADS-VENDAS\obj\Debug\net8.0-windows7.0\PIM_III_ADS_VENDAS.View.CadastroVisitante.resources
+C:\Users\kenzo\OneDrive\Documentos\PIM\vendasEmail\PIM-III-ADS-VENDAS\PIM-III-ADS-VENDAS\obj\Debug\net8.0-windows7.0\PIM_III_ADS_VENDAS.View.Teclado.resources
+C:\Users\kenzo\OneDrive\Documentos\PIM\vendasEmail\PIM-III-ADS-VENDAS\PIM-III-ADS-VENDAS\obj\Debug\net8.0-windows7.0\PIM_III_ADS_VENDAS.View.TecladoNumerico.resources
+C:\Users\kenzo\OneDrive\Documentos\PIM\vendasEmail\PIM-III-ADS-VENDAS\PIM-III-ADS-VENDAS\obj\Debug\net8.0-windows7.0\PIM_III_ADS_VENDAS.View.LoginCompra.resources
+C:\Users\kenzo\OneDrive\Documentos\PIM\vendasEmail\PIM-III-ADS-VENDAS\PIM-III-ADS-VENDAS\obj\Debug\net8.0-windows7.0\PIM_III_ADS_VENDAS.View.Pagamento.resources
+C:\Users\kenzo\OneDrive\Documentos\PIM\vendasEmail\PIM-III-ADS-VENDAS\PIM-III-ADS-VENDAS\obj\Debug\net8.0-windows7.0\PIM_III_ADS_VENDAS.View.Vendas.resources
+C:\Users\kenzo\OneDrive\Documentos\PIM\vendasEmail\PIM-III-ADS-VENDAS\PIM-III-ADS-VENDAS\obj\Debug\net8.0-windows7.0\PIM-III-ADS-VENDAS.csproj.GenerateResource.cache
+C:\Users\kenzo\OneDrive\Documentos\PIM\vendasEmail\PIM-III-ADS-VENDAS\PIM-III-ADS-VENDAS\obj\Debug\net8.0-windows7.0\PIM-III-ADS-VENDAS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kenzo\OneDrive\Documentos\PIM\vendasEmail\PIM-III-ADS-VENDAS\PIM-III-ADS-VENDAS\obj\Debug\net8.0-windows7.0\PIM-III-ADS-VENDAS.AssemblyInfoInputs.cache
+C:\Users\kenzo\OneDrive\Documentos\PIM\vendasEmail\PIM-III-ADS-VENDAS\PIM-III-ADS-VENDAS\obj\Debug\net8.0-windows7.0\PIM-III-ADS-VENDAS.AssemblyInfo.cs
+C:\Users\kenzo\OneDrive\Documentos\PIM\vendasEmail\PIM-III-ADS-VENDAS\PIM-III-ADS-VENDAS\obj\Debug\net8.0-windows7.0\PIM-III-ADS-VENDAS.csproj.CoreCompileInputs.cache
+C:\Users\kenzo\OneDrive\Documentos\PIM\vendasEmail\PIM-III-ADS-VENDAS\PIM-III-ADS-VENDAS\obj\Debug\net8.0-windows7.0\PIM-III-ADS-VENDAS.sourcelink.json

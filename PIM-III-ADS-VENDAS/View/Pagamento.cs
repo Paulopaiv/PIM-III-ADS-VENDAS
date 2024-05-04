@@ -7,7 +7,7 @@ namespace PIM_III_ADS_VENDAS.View
     {
         private PagamentoController pagamentoController;
         private VendasModel vendasModel;
-        private VendasController vendasController; 
+        private VendasController vendasController;
         private PessoaController pessoaController;
         private LoginCompra loginCompra;
 
@@ -61,9 +61,9 @@ namespace PIM_III_ADS_VENDAS.View
 
             vendasModel.SalvarVenda();
 
-            
+
             await Task.Delay(4000);
-       
+
             loginCompra.Show();
             this.Close();
         }
@@ -73,7 +73,7 @@ namespace PIM_III_ADS_VENDAS.View
 
         private void BtnCancelar_Click(object sender, EventArgs e)
         {
-           
+
             loginCompra.Show();
             this.Close();
         }

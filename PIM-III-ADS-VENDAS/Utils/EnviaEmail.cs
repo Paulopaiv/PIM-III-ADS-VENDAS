@@ -22,11 +22,17 @@ namespace PIM_III_ADS_VENDAS.Utils
 
                 message.From = new MailAddress("pim3ads@gmail.com");
 
-                message.Body = message.Body = $"Olá, {nome}!\n\nObrigado por comprar seu ingresso para o museu!" +
-                                              $"\n\nSeu código de visitante é: {codigo}" +
-                                              $"\n\nForma de pagamento: {formaDePagamento}" +
-                                              $"\n\nValor do ingresso: R${valorIngresso}" +
-                                              $"\n\nTenha uma ótima visita!";
+                message.Body = message.Body = message.Body = "<html>" +
+               "<body>" +
+               $"<h2 style=\"color: #333;\">Olá, {nome}!</h2>" +
+               "<p>Obrigado por comprar seu ingresso para o museu!</p>" +
+               $"<p>Seu código de visitante é: {codigo}</p>" +
+               $"<p>Forma de pagamento: {formaDePagamento}</p>" +
+               $"<p>Valor do ingresso: R${valorIngresso}</p>" +
+               "<p>Tenha uma ótima visita!</p>" +
+               "</body>" +
+               "</html>";
+
 
                 message.Subject = "Seu Código de Visitante";
                 message.IsBodyHtml = true;
