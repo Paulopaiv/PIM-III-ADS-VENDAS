@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginCompra));
             btnCadastrarSe = new Button();
             btnComprar = new Button();
             lblEnail = new Label();
@@ -43,9 +44,9 @@
             btnCadastrarSe.BackgroundImageLayout = ImageLayout.Zoom;
             btnCadastrarSe.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             btnCadastrarSe.ForeColor = Color.Black;
-            btnCadastrarSe.Location = new Point(1269, 547);
+            btnCadastrarSe.Location = new Point(1286, 692);
             btnCadastrarSe.Name = "btnCadastrarSe";
-            btnCadastrarSe.Size = new Size(139, 38);
+            btnCadastrarSe.Size = new Size(183, 38);
             btnCadastrarSe.TabIndex = 25;
             btnCadastrarSe.Text = "Cadastrar-se";
             btnCadastrarSe.UseVisualStyleBackColor = false;
@@ -58,9 +59,9 @@
             btnComprar.BackgroundImageLayout = ImageLayout.Zoom;
             btnComprar.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             btnComprar.ForeColor = Color.Black;
-            btnComprar.Location = new Point(1512, 547);
+            btnComprar.Location = new Point(1485, 692);
             btnComprar.Name = "btnComprar";
-            btnComprar.Size = new Size(139, 38);
+            btnComprar.Size = new Size(183, 38);
             btnComprar.TabIndex = 24;
             btnComprar.Text = "Comprar";
             btnComprar.UseVisualStyleBackColor = false;
@@ -71,18 +72,18 @@
             lblEnail.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
             lblEnail.AutoSize = true;
             lblEnail.BackColor = Color.Transparent;
-            lblEnail.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            lblEnail.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             lblEnail.ForeColor = SystemColors.ControlLightLight;
-            lblEnail.Location = new Point(1269, 337);
+            lblEnail.Location = new Point(1286, 562);
             lblEnail.Name = "lblEnail";
-            lblEnail.Size = new Size(41, 15);
+            lblEnail.Size = new Size(67, 25);
             lblEnail.TabIndex = 19;
             lblEnail.Text = "E-mail";
             // 
             // txbEmail
             // 
             txbEmail.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
-            txbEmail.Location = new Point(1269, 355);
+            txbEmail.Location = new Point(1286, 600);
             txbEmail.Name = "txbEmail";
             txbEmail.Size = new Size(382, 23);
             txbEmail.TabIndex = 1;
@@ -91,7 +92,7 @@
             // txbNome
             // 
             txbNome.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
-            txbNome.Location = new Point(1269, 289);
+            txbNome.Location = new Point(1286, 524);
             txbNome.Name = "txbNome";
             txbNome.Size = new Size(382, 23);
             txbNome.TabIndex = 0;
@@ -102,11 +103,11 @@
             lblNome.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
             lblNome.AutoSize = true;
             lblNome.BackColor = Color.Transparent;
-            lblNome.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            lblNome.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             lblNome.ForeColor = SystemColors.ControlLightLight;
-            lblNome.Location = new Point(1269, 251);
+            lblNome.Location = new Point(1286, 486);
             lblNome.Name = "lblNome";
-            lblNome.Size = new Size(49, 15);
+            lblNome.Size = new Size(70, 25);
             lblNome.TabIndex = 13;
             lblNome.Text = "Nome ";
             // 
@@ -115,7 +116,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
-            BackgroundImage = Properties.Resources.telaLoginmain;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1920, 1100);
             Controls.Add(btnCadastrarSe);
             Controls.Add(lblEnail);

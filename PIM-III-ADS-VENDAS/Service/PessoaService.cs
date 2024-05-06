@@ -54,7 +54,7 @@ namespace PIM_III_ADS_VENDAS.Service
                 var connection = conexao.GetConnection();
 
                 var resultado = connection.QueryFirstOrDefault(
-                     "SELECT nome, idade, email, cep, codigo FROM public.visitante WHERE nome = @Nome AND email = @Email",
+                     "SELECT nome, idade, email, cep, data, codigo FROM public.visitante WHERE nome = @Nome AND email = @Email",
                     new { pessoa.Nome, pessoa.Email });
 
                 if (resultado != null)
@@ -63,6 +63,7 @@ namespace PIM_III_ADS_VENDAS.Service
                     pessoa.IdadeDb = resultado.idade;
                     pessoa.Email = resultado.email;
                     pessoa.Cep = resultado.cep;
+                    pessoa.Data = resultado.data;
                     pessoa.Codigo = resultado.codigo;
 
                     return pessoa;
