@@ -1,8 +1,5 @@
 ﻿using Npgsql;
-using PIM_III_ADS_VENDAS.Controller;
-using PIM_III_ADS_VENDAS.Service;
 using PIM_III_ADS_VENDAS.Utils;
-using static QRCoder.PayloadGenerator;
 
 namespace PIM_III_ADS_VENDAS.Service
 {
@@ -21,8 +18,8 @@ namespace PIM_III_ADS_VENDAS.Service
             
             EnviaEmail enviaEmail = new EnviaEmail();   
 
-            using (NpgsqlCommand command = new NpgsqlCommand(@"INSERT INTO public.vendas(formadepagamento, ingresso, data, codigo)
-                                                         VALUES (@formadepagamento, @ingresso, @Data,@CodigoPessoa)", conexao))
+            using (NpgsqlCommand command = new NpgsqlCommand(@"INSERT INTO public.vendas(formadepagamento, data, codigo)
+                                                         VALUES (@formadepagamento, @Data,@CodigoPessoa)", conexao))
             {
                 command.Parameters.AddWithValue("@CodigoPessoa", codigoUsuario);
                 command.Parameters.AddWithValue("@ingresso", vendaAtual);
