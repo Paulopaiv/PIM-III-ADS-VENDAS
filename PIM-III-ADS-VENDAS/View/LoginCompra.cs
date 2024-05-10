@@ -44,7 +44,7 @@ namespace PIM_III_ADS_VENDAS.View
             if (pessoaModel.Mensagem.Equals($"Olá, {pessoaController.Nome}! Bem-vindo(a)!"))
             {
                 Vendas vendas = new Vendas(pessoaController);
-                vendas.ShowDialog(); 
+                vendas.ShowDialog();
                 this.Hide();
                 MessageBox.Show(pessoaModel.Mensagem);
             }
@@ -57,7 +57,14 @@ namespace PIM_III_ADS_VENDAS.View
         private void btnCadastrarSe_Click(object sender, EventArgs e)
         {
             CadastroVisitante cadastroVisitante = new CadastroVisitante();
-            cadastroVisitante.ShowDialog(); 
+            cadastroVisitante.ShowDialog();
+            this.Hide();
+        }
+
+        private void btnMenu_Click(object sender, EventArgs e)
+        {
+            TelaMenu menu = new TelaMenu();
+            menu.ShowDialog();
             this.Hide();
         }
     }

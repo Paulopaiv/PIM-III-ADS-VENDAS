@@ -37,13 +37,14 @@
             BtnDebito = new Button();
             ptbQrCode = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)ptbQrCode).BeginInit();
-            SuspendLayout();  // 
+            SuspendLayout();
+            // 
             // BtnCredito
             // 
             BtnCredito.BackColor = Color.White;
             BtnCredito.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
             BtnCredito.ForeColor = Color.Black;
-            BtnCredito.Image = (Image)resources.GetObject("BtnCredito.Image");
+            BtnCredito.Image = Properties.Resources.Payment;
             BtnCredito.ImageAlign = ContentAlignment.MiddleLeft;
             BtnCredito.Location = new Point(99, 18);
             BtnCredito.Name = "BtnCredito";
@@ -80,7 +81,7 @@
             BtnPix.BackColor = Color.White;
             BtnPix.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
             BtnPix.ForeColor = Color.Black;
-            BtnPix.Image = (Image)resources.GetObject("BtnPix.Image");
+            BtnPix.Image = Properties.Resources.Pix;
             BtnPix.ImageAlign = ContentAlignment.MiddleLeft;
             BtnPix.Location = new Point(99, 150);
             BtnPix.Name = "BtnPix";
@@ -95,7 +96,7 @@
             BtnDebito.BackColor = Color.White;
             BtnDebito.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
             BtnDebito.ForeColor = Color.Black;
-            BtnDebito.Image = (Image)resources.GetObject("BtnDebito.Image");
+            BtnDebito.Image = Properties.Resources.Payment1;
             BtnDebito.ImageAlign = ContentAlignment.MiddleLeft;
             BtnDebito.Location = new Point(99, 84);
             BtnDebito.Name = "BtnDebito";
@@ -108,7 +109,6 @@
             // ptbQrCode
             // 
             ptbQrCode.BackColor = Color.Transparent;
-            ptbQrCode.BackgroundImage = (Image)resources.GetObject("ptbQrCode.BackgroundImage");
             ptbQrCode.Location = new Point(12, 347);
             ptbQrCode.Name = "ptbQrCode";
             ptbQrCode.Size = new Size(334, 193);
