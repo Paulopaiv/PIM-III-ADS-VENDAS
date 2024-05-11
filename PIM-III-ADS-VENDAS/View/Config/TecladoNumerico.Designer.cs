@@ -94,6 +94,7 @@
             btn3.TabIndex = 0;
             btn3.Text = "3";
             btn3.UseVisualStyleBackColor = true;
+            btn3.Click += BtnTecla_Click;
             // 
             // btn2
             // 

@@ -245,11 +245,11 @@ namespace PIM_III_ADS_VENDAS.View
             shiftAtivado = !shiftAtivado;
         }
 
-        private void btnUnderline_Click(object sender, EventArgs e)
-        {
-            if (targetTextBox != null)
-                targetTextBox.Text += "_";
-        }
+        //private void btnUnderline_Click(object sender, EventArgs e)
+        //{
+        //    if (targetTextBox != null)
+        //        targetTextBox.Text += "_";
+        //}
 
         private void btnSpace_Click(object sender, EventArgs e)
         {
@@ -257,21 +257,33 @@ namespace PIM_III_ADS_VENDAS.View
                 targetTextBox.Text += " ";
         }
 
-        private void btnArroba_Click(object sender, EventArgs e)
-        {
-            if (targetTextBox != null)
-                targetTextBox.Text += "@";
-        }
+        //private void btnArroba_Click(object sender, EventArgs e)
+        //{
+        //    if (targetTextBox != null)
+        //        targetTextBox.Text += "@";
+        //}
 
-        private void btnPontoCom_Click(object sender, EventArgs e)
-        {
-            if (targetTextBox != null)
-                targetTextBox.Text += ".com";
-        }
+        //private void btnPontoCom_Click(object sender, EventArgs e)
+        //{
+        //    if (targetTextBox != null)
+        //        targetTextBox.Text += ".com";
+        //}
 
         private void btnRun_Click(object sender, EventArgs e)
         {
             this.Hide();
+        }
+
+        private void BtnTecla_Click(object sender, EventArgs e)
+        {
+            Button btn = sender as Button;
+            if (btn != null)
+            {
+                string character = btn.Text;
+                int cursorPosition = targetTextBox.SelectionStart;
+                targetTextBox.Text = targetTextBox.Text.Insert(cursorPosition, character);
+                targetTextBox.SelectionStart = cursorPosition + character.Length;
+            }
         }
     }
 }

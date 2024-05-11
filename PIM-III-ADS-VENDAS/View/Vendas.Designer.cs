@@ -33,6 +33,7 @@ namespace PIM_III_ADS_VENDAS.View
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Vendas));
             btnInteiro = new Button();
             btnMeia = new Button();
             btnIsento = new Button();
@@ -108,7 +109,7 @@ namespace PIM_III_ADS_VENDAS.View
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
-            BackgroundImage = Resources.Venda_de_ingressos;
+            BackgroundImage = (System.Drawing.Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1920, 1100);
             Controls.Add(btnIsento);

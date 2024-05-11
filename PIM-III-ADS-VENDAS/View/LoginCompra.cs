@@ -1,7 +1,7 @@
 ﻿
-
 using PIM_III_ADS_VENDAS.Controller;
 using PIM_III_ADS_VENDAS.Model;
+using WinFormsTimer = System.Windows.Forms.Timer;
 
 namespace PIM_III_ADS_VENDAS.View
 {
@@ -10,6 +10,7 @@ namespace PIM_III_ADS_VENDAS.View
         private PessoaModel pessoaModel;
         private PessoaController pessoaController;
         private Teclado teclado;
+        private WinFormsTimer timer;
 
         public LoginCompra()
         {
@@ -17,6 +18,13 @@ namespace PIM_III_ADS_VENDAS.View
             pessoaModel = new PessoaModel();
             pessoaController = new PessoaController();
             this.WindowState = FormWindowState.Maximized;
+
+            timer = new WinFormsTimer();
+            timer.Interval = 600000; //aumentar tempo para 60
+            timer.Tick += Timer_Tick;
+
+            timer.Start();
+
         }
 
         private void TextBox1_Click(object sender, EventArgs e)
@@ -41,31 +49,33 @@ namespace PIM_III_ADS_VENDAS.View
 
             pessoaModel.LoginCompra(pessoaController);
 
-            if (pessoaModel.Mensagem.Equals($"Olá, {pessoaController.Nome}! Bem-vindo(a)!"))
+            if (pessoaModel.Mensagem.Equals(""))
             {
                 Vendas vendas = new Vendas(pessoaController);
-                vendas.ShowDialog();
+                vendas.Show();
                 this.Hide();
-                MessageBox.Show(pessoaModel.Mensagem);
             }
             else
             {
                 MessageBox.Show(pessoaModel.Mensagem);
             }
         }
+        private void Timer_Tick(object sender, EventArgs e)
+        {
+            this.Close();
+            TelaMenu menu = new TelaMenu();
+            menu.Show();
+            timer.Stop();
+        }
 
         private void btnCadastrarSe_Click(object sender, EventArgs e)
         {
             CadastroVisitante cadastroVisitante = new CadastroVisitante();
-            cadastroVisitante.ShowDialog();
+            cadastroVisitante.Show();
             this.Hide();
         }
 
-        private void btnMenu_Click(object sender, EventArgs e)
-        {
-            TelaMenu menu = new TelaMenu();
-            menu.ShowDialog();
-            this.Hide();
-        }
+
+
     }
 }

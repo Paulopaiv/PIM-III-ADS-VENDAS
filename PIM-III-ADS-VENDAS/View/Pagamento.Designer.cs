@@ -42,6 +42,7 @@
             // BtnCredito
             // 
             BtnCredito.BackColor = Color.White;
+            BtnCredito.Cursor = Cursors.Hand;
             BtnCredito.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
             BtnCredito.ForeColor = Color.Black;
             BtnCredito.Image = Properties.Resources.Payment;
@@ -66,6 +67,7 @@
             // BtnCancelar
             // 
             BtnCancelar.BackColor = Color.White;
+            BtnCancelar.Cursor = Cursors.Hand;
             BtnCancelar.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             BtnCancelar.ForeColor = Color.Black;
             BtnCancelar.Location = new Point(99, 247);
@@ -79,6 +81,7 @@
             // BtnPix
             // 
             BtnPix.BackColor = Color.White;
+            BtnPix.Cursor = Cursors.Hand;
             BtnPix.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
             BtnPix.ForeColor = Color.Black;
             BtnPix.Image = Properties.Resources.Pix;
@@ -94,6 +97,7 @@
             // BtnDebito
             // 
             BtnDebito.BackColor = Color.White;
+            BtnDebito.Cursor = Cursors.Hand;
             BtnDebito.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
             BtnDebito.ForeColor = Color.Black;
             BtnDebito.Image = Properties.Resources.Payment1;
@@ -109,6 +113,7 @@
             // ptbQrCode
             // 
             ptbQrCode.BackColor = Color.Transparent;
+            ptbQrCode.Image = Properties.Resources.Imgpix;
             ptbQrCode.Location = new Point(12, 347);
             ptbQrCode.Name = "ptbQrCode";
             ptbQrCode.Size = new Size(334, 193);

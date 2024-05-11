@@ -35,7 +35,6 @@
             txbEmail = new TextBox();
             txbNome = new TextBox();
             lblNome = new Label();
-            btnMenu = new Button();
             SuspendLayout();
             // 
             // btnCadastrarSe
@@ -112,22 +111,6 @@
             lblNome.TabIndex = 13;
             lblNome.Text = "Nome ";
             // 
-            // btnMenu
-            // 
-            btnMenu.BackColor = Color.White;
-            btnMenu.Cursor = Cursors.Hand;
-            btnMenu.FlatAppearance.BorderSize = 0;
-            btnMenu.FlatStyle = FlatStyle.Flat;
-            btnMenu.Font = new Font("Segoe UI Semibold", 24F, FontStyle.Bold, GraphicsUnit.Point);
-            btnMenu.ImageAlign = ContentAlignment.MiddleLeft;
-            btnMenu.Location = new Point(39, 937);
-            btnMenu.Name = "btnMenu";
-            btnMenu.Size = new Size(479, 94);
-            btnMenu.TabIndex = 26;
-            btnMenu.Text = "Voltar para menu";
-            btnMenu.UseVisualStyleBackColor = false;
-            btnMenu.Click += btnMenu_Click;
-            // 
             // LoginCompra
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -135,7 +118,6 @@
             BackColor = SystemColors.ActiveCaptionText;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1920, 1100);
-            Controls.Add(btnMenu);
             Controls.Add(btnCadastrarSe);
             Controls.Add(lblEnail);
             Controls.Add(btnComprar);
@@ -156,6 +138,5 @@
         private Label lblNome;
         private Button btnComprar;
         private Button btnCadastrarSe;
-        private Button btnMenu;
     }
 }

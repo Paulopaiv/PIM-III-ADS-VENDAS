@@ -20,14 +20,14 @@ namespace PIM_III_ADS_VENDAS.View
         private void btnCompra_Click(object sender, EventArgs e)
         {
             LoginCompra loginCompra = new LoginCompra();
-            loginCompra.ShowDialog();
+            loginCompra.Show();
             this.Hide();
         }
 
         private void btnMapa_Click(object sender, EventArgs e)
         {
             Mapa mapa = new Mapa();
-            mapa.ShowDialog();
+            mapa.Show();
             this.Hide();
         }
     }

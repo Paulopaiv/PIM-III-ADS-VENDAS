@@ -35,35 +35,38 @@
             // 
             // btnMapa
             // 
-            btnMapa.BackColor = Color.White;
+            btnMapa.BackColor = Color.Transparent;
             btnMapa.BackgroundImageLayout = ImageLayout.None;
             btnMapa.Cursor = Cursors.Hand;
+            btnMapa.FlatAppearance.BorderSize = 0;
+            btnMapa.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnMapa.FlatAppearance.MouseOverBackColor = Color.Transparent;
             btnMapa.FlatStyle = FlatStyle.Flat;
             btnMapa.Font = new Font("Segoe UI Semibold", 24F, FontStyle.Bold, GraphicsUnit.Point);
-            btnMapa.Image = (Image)resources.GetObject("btnMapa.Image");
             btnMapa.ImageAlign = ContentAlignment.MiddleLeft;
-            btnMapa.Location = new Point(93, 830);
+            btnMapa.Location = new Point(93, 873);
             btnMapa.Name = "btnMapa";
-            btnMapa.Size = new Size(847, 124);
+            btnMapa.Size = new Size(874, 140);
             btnMapa.TabIndex = 0;
-            btnMapa.Text = "Mapa";
+            btnMapa.Text = " ";
             btnMapa.UseVisualStyleBackColor = false;
             btnMapa.Click += btnMapa_Click;
             // 
             // btnCompra
             // 
-            btnCompra.BackColor = Color.White;
+            btnCompra.BackColor = Color.Transparent;
             btnCompra.BackgroundImageLayout = ImageLayout.None;
             btnCompra.Cursor = Cursors.Hand;
+            btnCompra.FlatAppearance.BorderSize = 0;
+            btnCompra.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnCompra.FlatAppearance.MouseOverBackColor = Color.Transparent;
             btnCompra.FlatStyle = FlatStyle.Flat;
-            btnCompra.Font = new Font("Segoe UI Semibold", 24F, FontStyle.Bold, GraphicsUnit.Point);
-            btnCompra.Image = (Image)resources.GetObject("btnCompra.Image");
+            btnCompra.Font = new Font("Segoe UI Semibold", 27.75F, FontStyle.Bold, GraphicsUnit.Point);
             btnCompra.ImageAlign = ContentAlignment.MiddleLeft;
-            btnCompra.Location = new Point(1052, 830);
+            btnCompra.Location = new Point(1007, 873);
             btnCompra.Name = "btnCompra";
-            btnCompra.Size = new Size(847, 124);
+            btnCompra.Size = new Size(839, 140);
             btnCompra.TabIndex = 1;
-            btnCompra.Text = "Comprar";
             btnCompra.UseVisualStyleBackColor = false;
             btnCompra.Click += btnCompra_Click;
             // 
@@ -77,7 +80,9 @@
             Controls.Add(btnCompra);
             Controls.Add(btnMapa);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "TelaMenu";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "TelaMenu";
             ResumeLayout(false);
         }

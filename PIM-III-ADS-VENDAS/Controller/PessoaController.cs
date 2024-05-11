@@ -1,4 +1,7 @@
-﻿namespace PIM_III_ADS_VENDAS.Controller
+﻿
+using PIM_III_ADS_VENDAS.View;
+
+namespace PIM_III_ADS_VENDAS.Controller
 {
     public class PessoaController
     {
@@ -9,12 +12,15 @@
         private string cep;
         private string codigo;
         public DateTime data;
+        private TelaMenu menu;
+
 
 
         public PessoaController()
         {
-
+       
         }
+        
 
         public PessoaController(string nome, string idade, string email, string cep, string codigo, int idadeDb = 0)
         {
@@ -53,7 +59,7 @@
             }
             return codigo;
         }
-
+    
 
         public string Idade
         {
@@ -72,7 +78,6 @@
                 codigo = value;
             }
         }
-
         public string Cep
         {
             get { return cep; }

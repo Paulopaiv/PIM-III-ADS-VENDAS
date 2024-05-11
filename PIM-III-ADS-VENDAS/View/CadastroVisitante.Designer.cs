@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CadastroVisitante));
             BtnCancelar = new Button();
             txbNome = new TextBox();
             txbEmail = new TextBox();
@@ -93,7 +94,7 @@
             // 
             // btnComprar
             // 
-            btnComprar.Anchor = AnchorStyles.Right;
+            btnComprar.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             btnComprar.BackColor = Color.White;
             btnComprar.BackgroundImageLayout = ImageLayout.Zoom;
             btnComprar.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
@@ -111,9 +112,9 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
-            BackgroundImage = Properties.Resources.Cadastro;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1920, 1100);
+            ClientSize = new Size(1920, 1061);
             Controls.Add(btnComprar);
             Controls.Add(txbCep);
             Controls.Add(BtnCancelar);

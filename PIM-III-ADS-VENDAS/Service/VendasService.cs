@@ -18,7 +18,7 @@ namespace PIM_III_ADS_VENDAS.Service
             
             EnviaEmail enviaEmail = new EnviaEmail();   
 
-            using (NpgsqlCommand command = new NpgsqlCommand(@"INSERT INTO public.vendas(formadepagamento, data, codigo)
+            using (NpgsqlCommand command = new NpgsqlCommand(@"INSERT INTO public.tbl_vendas(formadepagamento, data, codigo)
                                                          VALUES (@formadepagamento, @Data,@CodigoPessoa)", conexao))
             {
                 command.Parameters.AddWithValue("@CodigoPessoa", codigoUsuario);

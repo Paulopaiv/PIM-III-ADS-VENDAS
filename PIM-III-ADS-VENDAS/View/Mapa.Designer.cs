@@ -34,17 +34,18 @@
             // 
             // btnMenu
             // 
-            btnMenu.BackColor = Color.White;
+            btnMenu.BackColor = Color.Transparent;
             btnMenu.Cursor = Cursors.Hand;
             btnMenu.FlatAppearance.BorderSize = 0;
+            btnMenu.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnMenu.FlatAppearance.MouseOverBackColor = Color.Transparent;
             btnMenu.FlatStyle = FlatStyle.Flat;
             btnMenu.Font = new Font("Segoe UI Semibold", 24F, FontStyle.Bold, GraphicsUnit.Point);
             btnMenu.ImageAlign = ContentAlignment.MiddleLeft;
-            btnMenu.Location = new Point(39, 937);
+            btnMenu.Location = new Point(92, 948);
             btnMenu.Name = "btnMenu";
-            btnMenu.Size = new Size(479, 94);
+            btnMenu.Size = new Size(495, 111);
             btnMenu.TabIndex = 0;
-            btnMenu.Text = "Voltar para menu";
             btnMenu.UseVisualStyleBackColor = false;
             btnMenu.Click += btnMenu_Click;
             // 

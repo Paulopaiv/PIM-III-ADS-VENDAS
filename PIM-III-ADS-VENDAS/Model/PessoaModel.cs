@@ -49,7 +49,7 @@ namespace PIM_III_ADS_VENDAS.Model
 
             if (pessoa != null && pessoa.Nome != null && pessoa.Email != null)
             {
-                this.mensagem = $"Olá, {pessoa.Nome}! Bem-vindo(a)!";
+                this.mensagem = "";
             }
             else
             {

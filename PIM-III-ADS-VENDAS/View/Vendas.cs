@@ -14,9 +14,6 @@ namespace PIM_III_ADS_VENDAS.View
         private VendasModel vendasModel;
         private PagamentoController pagamentoController;
 
-
-
-
         public Vendas(PessoaController pessoaController)
         {
             InitializeComponent();
@@ -54,7 +51,7 @@ namespace PIM_III_ADS_VENDAS.View
                 // Se a idade não for maior que 70, mostra uma mensagem de erro
                 MessageBox.Show("A opção 'Isento' está disponível apenas para pessoas com mais de 70 anos.");
             }
-            this.Close();
+            //this.Close();
         }
 
         private void AtualizarTipoIngresso(bool inteiro, bool meia, bool isento)
@@ -62,8 +59,9 @@ namespace PIM_III_ADS_VENDAS.View
             vendasController.Inteiro = inteiro;
             vendasController.Meia = meia;
             vendasController.Isento = isento;
-            pagamento.ShowDialog();
-            this.Close();
+            pagamento.Show();
+
+
         }
     }
 }

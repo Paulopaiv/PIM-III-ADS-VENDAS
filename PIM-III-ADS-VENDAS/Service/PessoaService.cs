@@ -22,7 +22,7 @@ namespace PIM_III_ADS_VENDAS.Service
         {
             using (NpgsqlConnection conexao = dbconexao.GetConnection() as NpgsqlConnection)
             {
-                conexao.Execute(@"INSERT INTO visitante (NOME, IDADE, EMAIL, CEP, DATA, Codigo) 
+                conexao.Execute(@"INSERT INTO tbl_visitante (NOME, IDADE, EMAIL, CEP, DATA, Codigo) 
                     VALUES (@Nome, @IdadeDb, @Email, @Cep, @Data, @Codigo)",
                     new
                     {
@@ -43,7 +43,7 @@ namespace PIM_III_ADS_VENDAS.Service
         {
             using (NpgsqlConnection conexao = dbconexao.GetConnection() as NpgsqlConnection)
             {
-                return conexao.QueryFirstOrDefault<PessoaController>("SELECT * FROM visitante WHERE email = @Email", new { Email = email });
+                return conexao.QueryFirstOrDefault<PessoaController>("SELECT * FROM tbl_visitante WHERE email = @Email", new { Email = email });
             }
         }
 
@@ -54,7 +54,7 @@ namespace PIM_III_ADS_VENDAS.Service
                 var connection = conexao.GetConnection();
 
                 var resultado = connection.QueryFirstOrDefault(
-                     "SELECT nome, idade, email, cep, data, codigo FROM public.visitante WHERE nome = @Nome AND email = @Email",
+                     "SELECT nome, idade, email, cep, data, codigo FROM public.tbl_visitante WHERE nome = @Nome AND email = @Email",
                     new { pessoa.Nome, pessoa.Email });
 
                 if (resultado != null)

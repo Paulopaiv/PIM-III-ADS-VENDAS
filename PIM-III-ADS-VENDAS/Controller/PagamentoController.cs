@@ -1,6 +1,5 @@
 ﻿using QRCoder;
 using System.Windows.Forms;
-
 using System.Security.Policy;
 
 

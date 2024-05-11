@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\Pim-Vendas\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS.csproj": {}
+    "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\PIM-Vendas\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\Pim-Vendas\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS.csproj": {
+    "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\PIM-Vendas\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\Pim-Vendas\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS.csproj",
+        "projectUniqueName": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\PIM-Vendas\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS.csproj",
         "projectName": "PIM-III-ADS-VENDAS",
-        "projectPath": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\Pim-Vendas\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS.csproj",
-        "packagesPath": "C:\\Users\\Nicolas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\Pim-Vendas\\PIM-III-ADS-VENDAS\\obj\\",
+        "projectPath": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\PIM-Vendas\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS.csproj",
+        "packagesPath": "C:\\Users\\kenzo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\PIM-Vendas\\PIM-III-ADS-VENDAS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Nicolas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kenzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
             },
             "Npgsql": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[8.0.3, )"
             },
             "QRCoder": {
               "target": "Package",

@@ -136,9 +136,9 @@
             btnSpace.Name = "btnSpace";
             btnSpace.Size = new Size(386, 52);
             btnSpace.TabIndex = 36;
-            btnSpace.Text = "Space";
+            btnSpace.Text = " ";
             btnSpace.UseVisualStyleBackColor = true;
-            btnSpace.Click += btnSpace_Click;
+            btnSpace.Click += BtnTecla_Click;
             // 
             // btnArroba
             // 
@@ -148,7 +148,7 @@
             btnArroba.TabIndex = 35;
             btnArroba.Text = "@";
             btnArroba.UseVisualStyleBackColor = true;
-            btnArroba.Click += btnArroba_Click;
+            btnArroba.Click += BtnTecla_Click;
             // 
             // btnPontoCom
             // 
@@ -158,7 +158,7 @@
             btnPontoCom.TabIndex = 34;
             btnPontoCom.Text = ".com";
             btnPontoCom.UseVisualStyleBackColor = true;
-            btnPontoCom.Click += btnPontoCom_Click;
+            btnPontoCom.Click += BtnTecla_Click;
             // 
             // btnRun
             // 
@@ -178,7 +178,7 @@
             btnUnderline.TabIndex = 31;
             btnUnderline.Text = "_";
             btnUnderline.UseVisualStyleBackColor = true;
-            btnUnderline.Click += btnUnderline_Click;
+            btnUnderline.Click += BtnTecla_Click;
             // 
             // btnNumerico
             // 

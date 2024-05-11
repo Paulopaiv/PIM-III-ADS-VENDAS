@@ -20,8 +20,8 @@ namespace PIM_III_ADS_VENDAS.View
         private void btnMenu_Click(object sender, EventArgs e)
         {
             TelaMenu menu = new TelaMenu();
-            menu.ShowDialog();
-            this.Hide();
+            menu.Show();
+            this.Close();
         }
     }
 }

@@ -9,8 +9,8 @@ namespace PIM_III_ADS_VENDAS.View
         private VendasModel vendasModel;
         private VendasController vendasController;
         private PessoaController pessoaController;
-        private LoginCompra loginCompra;
-
+        private TelaMenu menu;
+        
 
 
         public Pagamento(VendasController vendasController, PessoaController pessoaController)
@@ -21,7 +21,7 @@ namespace PIM_III_ADS_VENDAS.View
             this.vendasController = vendasController;
             this.pessoaController = pessoaController;
 
-            loginCompra = new LoginCompra();
+            menu = new TelaMenu();
             vendasModel = new VendasModel(vendasController, pagamentoController, pessoaController);
 
             this.StartPosition = FormStartPosition.CenterScreen;
@@ -35,7 +35,7 @@ namespace PIM_III_ADS_VENDAS.View
             pagamentoController.Pix = false;
 
             vendasModel.SalvarVenda();
-            loginCompra.Show();
+            menu.Show();
             this.Close();
 
         }
@@ -47,7 +47,7 @@ namespace PIM_III_ADS_VENDAS.View
             pagamentoController.Pix = false;
 
             vendasModel.SalvarVenda();
-            loginCompra.Show();
+            menu.Show();
             this.Close();
         }
 
@@ -62,20 +62,16 @@ namespace PIM_III_ADS_VENDAS.View
             vendasModel.SalvarVenda();
 
 
-            await Task.Delay(4000);
+            await Task.Delay(6000);
 
-            loginCompra.Show();
+            menu.Show();
             this.Close();
         }
 
-
-
-
         private void BtnCancelar_Click(object sender, EventArgs e)
         {
-
-            loginCompra.Show();
             this.Close();
+
         }
     }
 }

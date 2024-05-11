@@ -44,9 +44,9 @@ namespace PIM_III_ADS_VENDAS.Utils
                 setMensagem("O nome não pode conter números.");
             }
 
-            if (!Regex.IsMatch(pessoa.Nome, @"^[A-Z][a-zA-Z\s]*$"))
+            if (!Regex.IsMatch(pessoa.Nome, @"^[A-ZÁÉÍÓÚÀÃÕÇa-záéíóúàãõç\s]*$"))
             {
-                setMensagem("O nome deve começar com uma letra maiúscula e conter apenas letras e espaços.");
+                setMensagem("O nome deve começar com uma letra maiúscula e conter apenas letras e espaços."); 
             }
 
             pessoa.Nome = pessoa.Nome;
@@ -61,7 +61,7 @@ namespace PIM_III_ADS_VENDAS.Utils
             }
             if (!int.TryParse(pessoa.Idade, out int idade))
             {
-                setMensagem("A idade deve ser um número inteiro válido.");
+                setMensagem("A idade deve ser um número válido.");
                 return;
             }
 
@@ -100,7 +100,7 @@ namespace PIM_III_ADS_VENDAS.Utils
             var pessoaExistente = pessoaServico.BuscarPessoaPorEmail(pessoa.Email);
             if (pessoaExistente != null)
             {
-                setMensagem("Este endereço de e-mail já está em uso. Por favor, escolha outro.");
+                setMensagem("Este endereço de e-mail já está em uso.");
             }
             return;
 
