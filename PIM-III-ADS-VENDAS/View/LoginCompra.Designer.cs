@@ -125,6 +125,7 @@
             Controls.Add(txbNome);
             Controls.Add(lblNome);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "LoginCompra";
             Text = "LoginCompra";
             ResumeLayout(false);

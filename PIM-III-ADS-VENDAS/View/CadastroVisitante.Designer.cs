@@ -123,6 +123,7 @@
             Controls.Add(txbNome);
             Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "CadastroVisitante";
             Text = "CadastroVisitante";
             ResumeLayout(false);

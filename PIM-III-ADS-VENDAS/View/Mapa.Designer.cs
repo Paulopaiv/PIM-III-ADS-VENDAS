@@ -58,6 +58,7 @@
             Controls.Add(btnMenu);
             Cursor = Cursors.No;
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Mapa";
             Text = "Mapa";
             ResumeLayout(false);

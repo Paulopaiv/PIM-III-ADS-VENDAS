@@ -63,5 +63,12 @@ namespace PIM_III_ADS_VENDAS.View
 
 
         }
+
+        private void BtnCancelar_Click(object sender, EventArgs e)
+        {
+            LoginCompra loginCompra = new LoginCompra();
+            loginCompra.Show();
+            this.Close();
+        }
     }
 }
