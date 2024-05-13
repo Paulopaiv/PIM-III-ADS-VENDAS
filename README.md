@@ -1,4 +1,4 @@
-# Programa de Vendas do Museu da Primeira Viagem à Lua 💰
+# Programa de Vendas do Museu da Primeira Viagem à Lua 🛒
 
 Este programa é responsável por gerenciar as vendas de ingressos e produtos relacionados ao Museu da Primeira Viagem à Lua. Através deste programa, os funcionários do museu podem registrar vendas, controlar o estoque de produtos e gerar relatórios de vendas.
 
