@@ -32,7 +32,7 @@ O programa de vendas do Museu conta com um menu principal com as seguintes opÃ§Ã
 
 <p align="right" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="mapa" title="Mapa" src="./assets/Mapa.svg" width="400px">
-  <img alt="menu" title="menu" src="./assets/Tela-menu.svg" width="400px">
+  <img alt="menu" title="menu" src="./assets/Tela-Menu.svg" width="400px">
 </p>
 
 
