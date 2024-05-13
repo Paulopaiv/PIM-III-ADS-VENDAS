@@ -30,7 +30,7 @@ O programa de vendas do Museu conta com um menu principal com as seguintes opç�
 
 2. **Mapa do Museu:** Aqui, os visitantes podem visualizar o mapa do museu, facilitando a localização de exposições, áreas de interesse e serviços disponíveis no local. O mapa oferece uma visão geral do museu, auxiliando os visitantes a explorarem o espaço de forma mais organizada e proveitosa.
 
-<p align="right" style="display: flex; align-items: flex-start; justify-content: center;">
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="mapa" title="Mapa" src="./assets/Mapa.svg" width="400px">
   <img alt="menu" title="menu" src="./assets/Tela-Menu.svg" width="400px">
 </p>
