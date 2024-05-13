@@ -29,12 +29,13 @@ O programa de vendas do Museu conta com um menu principal com as seguintes opç�
 1. **Comprar Ingresso:** Esta opção permite aos visitantes comprar ingressos para o museu. Ao selecionar essa opção, o usuário será guiado pelo processo de compra de ingressos, podendo escolher o tipo de ingresso desejado e concluir a compra de forma segura e eficiente.
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-<img alt="mapa" title="Mapa" src="./assets/Mapa.svg" width="900px">
+<img alt="mapa" title="Mapa" src="./assets/Mapa.svg" width="700px">
 </p>
+
 2. **Mapa do Museu:** Aqui, os visitantes podem visualizar o mapa do museu, facilitando a localização de exposições, áreas de interesse e serviços disponíveis no local. O mapa oferece uma visão geral do museu, auxiliando os visitantes a explorarem o espaço de forma mais organizada e proveitosa.
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="menu" title="menu" src="./assets/Tela-Menu.svg" width="900px">
+  <img alt="menu" title="menu" src="./assets/Tela-Menu.svg" width="700px">
 </p>
 
 
