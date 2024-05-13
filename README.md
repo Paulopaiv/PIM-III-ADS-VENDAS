@@ -22,9 +22,14 @@ Para realizar esse projeto, foi necessário a criação de 4 programas que iriam
 - Linguagem: C#
 - Framework: Windows Forms
 
-## Layout 🎨
+## Menu Principal 📋
 
-O layout do programa segue os princípios de Design de Interface do Usuário para proporcionar uma experiência intuitiva aos funcionários responsáveis pelas vendas.
+O programa de vendas do Museu conta com um menu principal com as seguintes opções:
+
+1. **Comprar Ingresso:** Esta opção permite aos visitantes comprar ingressos para o museu. Ao selecionar essa opção, o usuário será guiado pelo processo de compra de ingressos, podendo escolher o tipo de ingresso desejado e concluir a compra de forma segura e eficiente.
+
+2. **Mapa do Museu:** Aqui, os visitantes podem visualizar o mapa do museu, facilitando a localização de exposições, áreas de interesse e serviços disponíveis no local. O mapa oferece uma visão geral do museu, auxiliando os visitantes a explorarem o espaço de forma mais organizada e proveitosa.
+
 
 ## ✒️ *Autores*
 
