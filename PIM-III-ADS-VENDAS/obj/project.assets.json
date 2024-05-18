@@ -606,19 +606,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kenzo\\.nuget\\packages\\": {}
+    "C:\\Users\\Nicolas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\PIM-Vendas\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS.csproj",
+      "projectUniqueName": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM vendas\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS.csproj",
       "projectName": "PIM-III-ADS-VENDAS",
-      "projectPath": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\PIM-Vendas\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS.csproj",
-      "packagesPath": "C:\\Users\\kenzo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\PIM-Vendas\\PIM-III-ADS-VENDAS\\obj\\",
+      "projectPath": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM vendas\\PIM-III-ADS-VENDAS\\PIM-III-ADS-VENDAS.csproj",
+      "packagesPath": "C:\\Users\\Nicolas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM vendas\\PIM-III-ADS-VENDAS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kenzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Nicolas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -689,7 +689,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
       }
     }
   }
